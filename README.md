@@ -8,7 +8,7 @@
  **安装**
 
 ```php
-   sudo composer require "Liu-Yvan/Purifier"
+   sudo composer require "yvan/purifier"
 ```
 
  **使用**

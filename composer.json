@@ -1,12 +1,12 @@
 {
-    "name": "liu-yvan/purifier",
+    "name": "yvan/purifier",
+    "type": "library",
     "description": "html purifier package for PHP",
     "homepage": "https://github.com/Liu-Yvan/Purifier",
-    "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Liu-Yvan",
+            "name": "Yvan",
             "homepage": "https://github.com/Liu-Yvan"
         }
     ],
@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Liu-Yvan\\Purifier": "src/"
+            "Yvan\\Purifier": "src/"
         }
     }
 }
