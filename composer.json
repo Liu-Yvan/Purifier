@@ -14,7 +14,6 @@
         "php":">=5.3",
         "ezyang/htmlpurifier": "4.8.*"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Yvan\\Purifier\\": "src/"
