@@ -2,6 +2,7 @@
     "name": "yvan/purifier",
     "type": "library",
     "description": "html purifier package for PHP",
+    "keywords": ["HtmlPurifier", "Purifier", "security", "xss"],
     "homepage": "https://github.com/Liu-Yvan/Purifier",
     "license": "MIT",
     "authors": [
@@ -19,6 +20,7 @@
             "Yvan\\Purifier\\": "src/"
         }
     },
-    "minimum-stability":"stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 
