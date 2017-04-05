@@ -1,5 +1,6 @@
 # HTMLPurifier
  **描述**
+ 
  简单封装HTMLPurifier的富文本过滤器，自定义白名单机制，有效杜绝了用户提交表单中的非法HTML标签，从而可以防止XSS攻击！
 
  Laravel框架下的请参考：https://github.com/LukeTowers/Purifier
@@ -20,9 +21,9 @@
            $purifier = new Purifier();
            $result = $purifier->remove($params);
            print_r($result);
-```
+           
            `打印结果：`
-```php
+           
            Array
            (
                [one] => <p>one</p>
