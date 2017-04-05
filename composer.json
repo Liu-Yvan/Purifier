@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Yvan\\Purifier": "src/"
+            "Yvan\\Purifier\\": "src/"
         }
     }
 }
