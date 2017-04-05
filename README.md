@@ -14,21 +14,22 @@
  **使用**
 
 ```php
-$params = [
-'one' => '<h1>one</h1>',
-'two' => '<h1><script>alert(123);</script>two</h1>',
-];
-$purifier = new Purifier();
-$result = $purifier->remove($params);
-print_r($result);
+  $params = [
+    'one' => '<h1>one</h1>',
+    'two' => '<h1><script>alert(123);</script>two</h1>',
+    ];
+  $purifier = new \Yvan\Purifier\Purifier();
+  $result = $purifier->remove($params);
+  print_r($result);
+```
 
-`打印结果：`
-
-Array
-(
-[one] => <p>one</p>
-[two] => <p>two</p>
-)
+**打印结果：**
+```php
+  Array
+  (
+    [one] => <p>one</p>
+    [two] => <p>two</p>
+  )
 ```
 
 **白名单配置**
