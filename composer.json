@@ -1,0 +1,24 @@
+{
+    "name": "liu-yvan/purifier",
+    "description": "html purifier package for PHP",
+    "homepage": "https://github.com/Liu-Yvan/Purifier",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liu-Yvan",
+            "homepage": "https://github.com/Liu-Yvan"
+        }
+    ],
+    "require": {
+        "php":">=5.3",
+        "ezyang/htmlpurifier": "4.8.*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Liu-Yvan\\Purifier": "src/"
+        }
+    }
+}
+
