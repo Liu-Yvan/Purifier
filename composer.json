@@ -18,6 +18,7 @@
         "psr-4": {
             "Yvan\\Purifier\\": "src/"
         }
-    }
+    },
+    "minimum-stability":"dev"
 }
 
